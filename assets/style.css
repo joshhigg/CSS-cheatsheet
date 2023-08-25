@@ -1,0 +1,57 @@
+:root {
+    --light-text: white;
+
+}
+
+* {
+    background-color: rgb(128, 130, 150);
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+header p {
+    color: var(--light-text);
+}
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 60px;
+}
+
+.card {
+    width: 400px;
+    border-style:dashed;
+    border-width: 5px;
+    margin-bottom: 50px;
+}
+
+.card h2 {
+    padding-left: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    width: 90%;
+}
+
+.card h3 {
+    margin: 0px 25px;
+    position: relative;
+    top: -30px;
+}
+
+pre, code {
+    background-color: rgb(85, 156, 250);
+    margin: 30px 30px;
+    border-radius: 20px;
+}
